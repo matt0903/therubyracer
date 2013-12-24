@@ -1,0 +1,12 @@
+cache: bundler
+rvm:
+  - 2.0.0
+  - 1.9.2
+  - 1.9.3
+  - 1.8.7
+  - rbx-2.1.1
+  - rbx-2.2.1
+notifications:
+  recipients:
+    - cowboyd@thefrontside.net
+script: bundle exec rake compile spec
